@@ -6,8 +6,8 @@ namespace AirlineCore.Domains
 {
     public class CheckIn
     {
-        public string LicensePlate { get; set; }
-        public string Dni { get; set; }
+        public Plane LicensePlate { get; set; }
+        public Passenger Dni { get; set; }
         public DateTime FlyDate { get; set; }
         public decimal Cost { get; set; }
     }
